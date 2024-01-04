@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #163152;
+    background-color: #fdfdff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 55px;
+}
+
+.buttons-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 20px;
+}
+
+.logo {
+    width: 64px;
+    height: 68px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #00c6bd;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #163152;
+}
+
+.button:visited {
+    color: #163152;
+}
+
+.button:hover {
+    opacity: 0.5;
+}

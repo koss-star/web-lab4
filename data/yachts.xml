@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<yachts>
+    <next_id>16</next_id>
+    
+    
+    
+    
+
+
+    
+<yacht id="13"><title>1</title><description>1</description><price>1</price><features><feature>1</feature></features></yacht><yacht id="14"><title>2</title><description>2</description><price>2</price><features><feature>2</feature></features></yacht><yacht id="15"><title>&#x41A;&#x430;&#x442;&#x435;&#x440; "&#x41A;&#x43E;&#x448;&#x430;&#x447;&#x44C;&#x44F; &#x436;&#x43E;&#x43F;&#x430;"</title><description>2122</description><price>2112</price><features><feature>221</feature></features></yacht></yachts>

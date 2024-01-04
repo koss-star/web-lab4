@@ -1,0 +1,33 @@
+#yachtFormContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#yachtForm {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.form-element {
+    margin-bottom: 10px;
+}
+
+#yachtForm #buttonsContainer {
+    align-self: center;
+}
+
+#yachtForm .form-element {
+    display: flex;
+    flex-direction: column;
+}
+
+#yachtForm input {
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px;
+}

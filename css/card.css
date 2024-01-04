@@ -1,0 +1,64 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0 60px 0;
+    list-style: none;
+    gap: 30px;
+}
+
+.card {
+    cursor: pointer;
+    width: 310px;
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(22, 49, 82, 0.12);
+}
+
+.card-title {
+    margin: 0 0 18px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.card-description {
+    margin: 0 0 15px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.card-features {
+    padding: 0;
+    margin: 0 0 29px 18px;
+    list-style-type: disc;
+}
+
+.card-features li {
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.card-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+#cardContainer {
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 20px;
+}
+
+#cardContainer * {
+    place-self: center;
+}
